@@ -21,6 +21,9 @@ public class BasicNavigation {
         driver.navigate().to("http://amazon.com");
         //if I want to comeback, to the previous page
         driver.navigate().back();
+        driver.navigate().to("http://etsy.com");
+        driver.navigate().back();
+        driver.navigate().to("http://target.com");
         //if I want to know URL of current website
         String url = driver.getCurrentUrl();
         System.out.println(url);

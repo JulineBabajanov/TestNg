@@ -12,6 +12,7 @@ public class MyFirstSeleniumScript {
 
         //lets open google.com
         //.get() method allows o open some website
+        driver.manage().window().maximize();
         driver.get("http://google.com");
         //to read page title, there is method .getTitle()
         //Test 1. Verify that title of the page is a "Google"
@@ -24,10 +25,5 @@ public class MyFirstSeleniumScript {
         }
         //to close browser
         driver.close();
-
-
-
-
-
     }
 }
