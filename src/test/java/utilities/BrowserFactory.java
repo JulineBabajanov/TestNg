@@ -17,7 +17,7 @@ public class BrowserFactory {
                 WebDriverManager.chromedriver().setup();
                 return new ChromeDriver();
             }  else if (browser.equalsIgnoreCase("firefox")) {
-                WebDriverManager.chromedriver().setup();
+                WebDriverManager.firefoxdriver().setup();
                 return new FirefoxDriver();
             } else if (browser.equalsIgnoreCase("safari")) {
                 return new SafariDriver();
